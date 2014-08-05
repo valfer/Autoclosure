@@ -28,7 +28,7 @@ printWithPrefix(text, {
 )
 
 // stessa ma con auto_closure
-func printWithPrefix2(text: String,  getPrefix:@auto_closure () -> String ) {
+func printWithPrefix2(text: String,  getPrefix:@autoclosure () -> String ) {
 
     let prefix = getPrefix()
     println(prefix + text)
